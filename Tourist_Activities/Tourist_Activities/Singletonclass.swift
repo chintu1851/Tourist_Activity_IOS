@@ -1,0 +1,20 @@
+//
+//  Singletonclass.swift
+//  Tourist_Activities
+//
+//  Created by Patel Chintan on 2023-03-01.
+//
+
+import Foundation
+class Singleton{
+    static let data = Singleton()
+    var places = [
+        Activities(image: "a01", activitytitle: "Visit Gateway of India", price: 95, image2: "a12", deails: "The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.Built in Indo-Saracenic style, the foundation stone for the Gateway of India was laid on 31 March 1911. The structure is an arch made of basalt, 26 metres (85 feet) high. It served to allow entry and access to India.", ratings: "★★☆☆☆", contact: "Indian Tourism: +917969394939",image3: "a1"),
+        Activities(image: "a02", activitytitle: "Elephanta Cave Excursion", price: 84,image2: "a22", deails: "A paradise for art lovers, National Gallery of Modern Art (NGMA). The multitude of artwork present in this charismatic gallery has drawn millions of visitors and left them awestruck. It is governed by the Department of Culture, Government of India and has over the period become a popular tourist attraction as it very convincingly depicts the modification of artwork in the field of visual and plastic arts.The ancient artefacts such as statues and mummies from Egypt have also a played a crucial role in rousing the curiosity of the visitors.", ratings: "★★★★☆", contact: "Cultural Authority: +919869694939",image3: "a2"),
+        Activities(image: "a3", activitytitle: "National Gallery of Modern Art", price: 10,image2: "a33", deails: "A paradise for art lovers, National Gallery of Modern Art (NGMA), Mumbai is a famous art museum possessing a magnificent collection of paintings, sculptures and artefacts since 1996. The multitude of artwork present in this charismatic gallery has drawn millions of visitors and left them awestruck.The ancient artefacts such as statues and mummies from Egypt have also a played a crucial role in rousing the curiosity of the visitors.", ratings: "★★★★★", contact: "NGMA Mumbai: +919787746346",image3: "a03"),
+        Activities(image: "a4", activitytitle: "Imagicaa Theme and Water Park", price: 20,image2: "a44", deails: "The park has three roller coasters: Nitro, Deep Space, and Gold Rush.The Scream Machine at Imagicaa Theme Park.The park also has the Scream Machine, a teacup ride, water-based bumper cars, and a carousel. One of the rides,Mr. India,is based on the 1987 Bollywood Indian film Mr. India - starring Anil Kapoor, while another ride is based on animated character Chhota Bheem.", ratings: "★★★☆☆", contact: "Adlabss Imagicaa: +919099336547",image3: "a04"),
+        Activities(image: "a5", activitytitle: "Snow World Mumbai", price: 12,image2: "a55", deails: "Snow world at Phoenix Marketcity Kurla is one of the Mumbai's leading snow winter park, where it hosts fun for all the beginners as well as veteran. The most amusing news to have pleasure all in a negative temperature of -10 degrees along with living the lifestyle of an Eskimo. Snow world is the place to try out your first moves on the boxes, build up confidence on your board or skis or have your first crack at the jumps on skates.", ratings: "★★★☆☆", contact: "Muncipal Corporation: +918659473621",image3: "a05"),
+        Activities(image: "a6", activitytitle: "Kolad Bungee Jumping", price: 28,image2: "a66", deails: "Located in the Raigad district in Maharashtra, Kolad is a great spot for enjoying a plethora of adventure activities. Amongst them, the bungee jumping experience is one of the most famous experiences that can be availed by fun enthusiasts & adventure junkies. Book this thrilling Kolad bungee jumping and overcome your fear by taking a dive from a significant height of 40 meters. Enjoy the panoramic views of the lush greens along with the Kundalika river and enjoy the experience.", ratings: "★☆☆☆☆", contact: "Maharashtra Adventure Department: +916367832909",image3: "a06")
+    ]
+    
+}
